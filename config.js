@@ -9,8 +9,7 @@ System.config({
   "paths": {
     "*": "*.js",
     "github:*": "jspm_packages/github/*.js",
-    "npm:*": "jspm_packages/npm/*.js",
-    "npm:caniuse-api@1.3.1/features": "./caniuse-features.js"
+    "npm:*": "jspm_packages/npm/*.js"
   }
 });
 
