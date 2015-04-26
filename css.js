@@ -1,6 +1,5 @@
 import pluginPostcss from 'plugin-postcss'
-import cssnext from 'cssnext'
 
-let { fetch, hotReload, bundle } = pluginPostcss([cssnext])
+let { fetch, hotReload, bundle } = pluginPostcss([])
 
 export { fetch, hotReload, bundle }
