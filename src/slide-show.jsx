@@ -32,7 +32,6 @@ export default class SlideShow extends React.Component {
   }
 
   render() {
-    console.log()
     return <div className="SlideShow">
       {this.props.children[this.state.slide - 1]}
     </div>

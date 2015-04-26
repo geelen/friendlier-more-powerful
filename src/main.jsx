@@ -7,16 +7,19 @@ export default class Main extends React.Component {
   render() {
     return <div className="Main">
       <SlideShow>
-        <TypeSlab>
-          |OMG|
-          |Fuckn|
-          |YEAH|
-        </TypeSlab>
-        <TypeSlab>
-          |Who is the best?|
-          |  Glen  |
-          |!is the fucken best|
-        </TypeSlab>
+        <TypeSlab>{`
+          Hello, my name is
+          Glen
+          and I'm from Melbourne
+          Australia
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |"                     |
+          Friendlier,
+          More
+          Powerful
+          |                     "|
+        `}</TypeSlab>
         <div>One</div>
         <div>Two</div>
       </SlideShow>
