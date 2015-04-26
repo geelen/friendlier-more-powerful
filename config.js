@@ -17,7 +17,7 @@ System.config({
   "map": {
     "babel": "npm:babel-core@5.1.13",
     "babel-runtime": "npm:babel-runtime@5.1.13",
-    "core-js": "npm:core-js@0.8.4",
+    "core-js": "npm:core-js@0.9.3",
     "jsx": "github:geelen/plugin-live-jsx@master",
     "react": "npm:react@0.13.2",
     "github:geelen/plugin-live-jsx@master": {
@@ -160,6 +160,9 @@ System.config({
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:core-js@0.8.4": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:core-js@0.9.3": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:core-util-is@1.0.1": {

@@ -2,6 +2,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "core-js": "npm:core-js@^0.9.3",
       "jsx": "github:geelen/plugin-live-jsx@master",
       "react": "npm:react@^0.13.2"
     },
