@@ -10,9 +10,9 @@ export default class SlideShow extends React.Component {
   }
 
   keyDown(e) {
-    if (e.keyCode == 39) {
+    if (e.keyCode == 39 || e.keyCode == 40) {
       this.incrementSlide()
-    } else if (e.keyCode == 37) {
+    } else if (e.keyCode == 37 || e.keyCode == 38) {
       this.decrementSlide()
     } else {
       console.log(e.keyCode)
