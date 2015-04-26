@@ -19,7 +19,7 @@ export default class Main extends React.Component {
     }
     return <div className="Main">
       <SlideShow>
-        <TypeSlab width={960} lines={["omg","win","boat"]} chosenColor={{background: "black", foreground: "red"}} chosenFont={font}></TypeSlab>
+        <TypeSlab noBorder width={960} lines={["omg","win","boat"]} chosenColor={{background: "black", foreground: "red"}} chosenFont={font}></TypeSlab>
         <div>One</div>
         <div>Two</div>
       </SlideShow>
