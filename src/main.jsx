@@ -1,16 +1,14 @@
 import React from 'react'
-import {base} from './main.css!'
+import SlideShow from './slide-show.jsx!'
+import './main.css!'
 
 export default class Main extends React.Component {
-  keyDown(e) {
-    console.log(e)
-  }
-
-  componentDidMount() {
-    document.addEventListener('keydown', this.keyDown.bind(this))
-  }
-
   render() {
-    return <div className="Main"></div>
+    return <div className="Main">
+      <SlideShow>
+        <div>One</div>
+        <div>Two</div>
+      </SlideShow>
+    </div>
   }
 }
