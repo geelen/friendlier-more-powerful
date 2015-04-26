@@ -41,9 +41,15 @@ export default class Main extends React.Component {
           what it was like
           not to understand it,
           !and how strange and bewildering it looked"
-          |                |
+          |                     |
           |!                              — Douglas Adams|
           |!                                    Hitchhiker's Guide to the Galaxy Radio Series iTunes bonus content|
+        `}</TypeSlab>
+        <TypeSlab>{`
+          Terminal
+          Unix
+          Google
+          💩🚫 W3Schools 🚫💩
         `}</TypeSlab>
       </SlideShow>
     </div>
