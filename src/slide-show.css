@@ -5,3 +5,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.SlideShow > .Output > * {
+  display: none;
+}
+
+.SlideShow > .Output > canvas {
+  display: block;
+  max-height: 100vh !important;
+  width: auto !important;
+}
