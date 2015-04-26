@@ -1,8 +1,8 @@
-.TypeSlab > .Output > * {
+.TypeSlab .Output > * {
   display: none;
 }
 
-.TypeSlab > .Output > canvas {
+.TypeSlab .Output > canvas {
   display: block;
   width: auto !important;
   height: auto !important;

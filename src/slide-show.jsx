@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react/addons'
+let ReactCSSTransitionGroup = React.addons.CSSTransitionGroup
 import './slide-show.css!'
 
 export default class SlideShow extends React.Component {
@@ -32,8 +33,10 @@ export default class SlideShow extends React.Component {
   }
 
   render() {
-    return <div className="SlideShow">
-      {this.props.children[this.state.slide - 1]}
-    </div>
+    return <ReactCSSTransitionGroup component="div" className="SlideShow" transitionName="slide">
+      <div className="Slide" key={this.state.slide}>
+        {this.props.children[this.state.slide - 1]}
+      </div>
+    </ReactCSSTransitionGroup>
   }
 }
