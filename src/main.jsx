@@ -8,11 +8,13 @@ export default class Main extends React.Component {
     return <div className="Main">
       <SlideShow>
         <TypeSlab>{`
-          Hello, my name is
+          !Hello, my name is
           Glen
-          I'm from Melbourne
-          Australia
-          which is a very very long way away
+          !I'm from Melbourne
+          AUSTRALIA
+          !which is a very very long way away. I am
+          @glenmaddern
+          !on Twitter so please say hello.
         `}</TypeSlab>
         <TypeSlab>{`
           |"                     |
@@ -59,7 +61,7 @@ export default class Main extends React.Component {
           knowledge
           !is required to do our jobs
         `}</TypeSlab>
-        <TypeSlab kind="uniform">{`
+        <TypeSlab kind="uniform" color="Ocean">{`
           Starting a basic website in 2014
           1. Install NodeJS.
           2. Install Bower
@@ -81,7 +83,7 @@ export default class Main extends React.Component {
           |               |
           |    😳    |
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           Professional
           |               |
           |               |
@@ -90,7 +92,7 @@ export default class Main extends React.Component {
           !Starting a Basic
           !Website in 2015
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😎      |
           |              |
           1. Install NodeJS.
@@ -98,7 +100,7 @@ export default class Main extends React.Component {
           !You mean IO.js, obviously.
           !I submitted 3 logos to that github issue.
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😎      |
           |              |
           2. Install Bower.
@@ -106,7 +108,7 @@ export default class Main extends React.Component {
           !Pfft, Webpack doesn't even work with Bower.
           !I don't think. Maybe it does. Pfft, who cares.
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😎      |
           |              |
           3. Pick CSS framework.
@@ -117,14 +119,14 @@ export default class Main extends React.Component {
           |                                            |
           !   (if I ever get time to open-source it)   |
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😎      |
           |              |
           4. Pick responsive approach.
           |                    |
           !Yep, injecting Metaquery into the head, NBD
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😎      |
           |              |
           47. Write some HTML
@@ -141,14 +143,14 @@ export default class Main extends React.Component {
           !Starting a Basic
           !Website in 2015
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😳      |
           |              |
           1. Install NodeJS.
           |                    |
           !Um, why? I thought Javascript ran in the browser.
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😳      |
           |              |
           2. Install Bower.
@@ -156,21 +158,21 @@ export default class Main extends React.Component {
           !What is that even? I thought you said
           !I was supposed to use NPM for packages.
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😳      |
           |              |
           3. Pick CSS framework.
           |                    |
           !Um, ok. What if I pick wrong? Can I change it?
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😳      |
           |              |
           4. Pick responsive approach.
           |                    |
           !Ah! I know this. Media queries, right?
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😳      |
           |              |
           47. Write some HTML
@@ -187,7 +189,7 @@ export default class Main extends React.Component {
           |              |
           !"Three files in a directory"
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab color="Ocean">{`
           |      😳      |
           |              |
           index.html
@@ -197,9 +199,67 @@ export default class Main extends React.Component {
           |                 |
           |      ️😏      |
         `}</TypeSlab>
-        <TypeSlab kind="uniform">{`
+        <TypeSlab kind="uniform" font="thinner">{`
           JS:
-          Minification
+          | |
+          | |
+          • Have more than one file
+          |!   without including separately
+          | |
+          | |
+          • Have two files communicate
+          |!   without global scope
+          | |
+          | |
+          • Include dependencies without
+          |!   either of the above
+          | |
+          | |
+          • Minimisation or any other
+          |!   kind of production processing
+          | |
+          | |
+        `}</TypeSlab>
+        <TypeSlab kind="uniform" font="thinner">{`
+          CSS:
+          | |
+          | |
+          • No pre/post-processing
+          | |
+          | |
+          • No autoprefixer!
+          | |
+          | |
+          • No variables, colour functions
+          | |
+          | |
+          • No production workflow
+          | |
+          | |
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |    😳    |
+          |          |
+          Does any of that
+          matter?
+        `}</TypeSlab>
+        <TypeSlab color="Ocean">{`
+          !"There are two types of web:
+          The professional web
+          !which is the one we all inhabit, and
+          The consumer web.
+          !The consumer web only allows publishing of content
+          on other people's platforms,
+          on other people's terms.
+          |                                |
+          !I believe there ought to be another,
+          A Producer Web
+          !where people can make their own sites
+          !as easily as they can post an update on Facebook
+          |                     |
+          !                                 — Alex Feyerke|
+          !                                    Step Off This Hurtling Machine, JSConfAU 2014
+          !                                          (Paraphrased, badly. Watch the video. Srsly)
         `}</TypeSlab>
       </SlideShow>
     </div>
