@@ -70,6 +70,17 @@ export default class Main extends React.Component {
           | |
           47. Write some HTML
         `}</TypeSlab>
+        <TypeSlab>{`
+          Professional
+          |               |
+          |               |
+          |    😎    |
+          |           |
+          Hobbyist
+          |               |
+          |               |
+          |    😳    |
+        `}</TypeSlab>
       </SlideShow>
     </div>
   }
