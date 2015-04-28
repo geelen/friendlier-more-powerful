@@ -36,7 +36,7 @@ System.config({
     "github:geelen/typeslab@master": {
       "FontDetect": "github:JenniferSimonds/FontDetect@master",
       "blueimp-canvas-to-blob": "npm:blueimp-canvas-to-blob@2.1.1",
-      "caniuse-db": "npm:caniuse-db@1.0.30000145",
+      "caniuse-db": "npm:caniuse-db@1.0.30000148",
       "fkit": "npm:fkit@0.16.2",
       "flummox": "npm:flummox@3.5.2",
       "insert-css": "npm:insert-css@0.2.0",

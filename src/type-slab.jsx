@@ -10,7 +10,7 @@ export default class TypeSlab extends React.Component {
   render() {
     let font = {
       main: {
-        name: "Klinic Slab",
+        name: "Avenir Next",
         weight: 700,
         caps: true
       },
@@ -25,7 +25,7 @@ export default class TypeSlab extends React.Component {
       chosenColor = Colors.filter(x => x.name == color)[0]
 
     return <div className="TypeSlab" style={{backgroundColor: chosenColor.background}}>
-      <Output noBorder width={960} lines={lines} chosenColor={chosenColor} chosenFont={font}></Output>
+      <Output noBorder width={960} lines={lines} chosenColor={chosenColor} chosenFont={font} mode={this.props.kind || "justified"}></Output>
     </div>
   }
 }

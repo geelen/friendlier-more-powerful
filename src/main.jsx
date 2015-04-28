@@ -36,6 +36,7 @@ export default class Main extends React.Component {
           !"I think I'm quite good at remembering
           how strange things are
           when you first come across them.
+          |                                                        |
           !If I have to explain something to somebody
           !I'm usually quite good at it, because I can remember
           what it was like
@@ -45,11 +46,29 @@ export default class Main extends React.Component {
           |!                              — Douglas Adams|
           |!                                    Hitchhiker's Guide to the Galaxy Radio Series iTunes bonus content|
         `}</TypeSlab>
-        <TypeSlab>{`
+        <TypeSlab kind="uniform">{`
           Terminal
           Unix
           Google
-          💩🚫 W3Schools 🚫💩
+          MDN 😍
+          W3Schools 🚫💩
+        `}</TypeSlab>
+        <TypeSlab>{`
+          !We forget just how much
+          implicit
+          knowledge
+          !is required to do our jobs
+        `}</TypeSlab>
+        <TypeSlab kind="uniform">{`
+          Starting a basic website in 2014
+          1. Install NodeJS.
+          2. Install Bower
+          3. Pick CSS framework
+          4. Pick responsive approach
+          | |
+          |     • • •
+          | |
+          47. Write some HTML
         `}</TypeSlab>
       </SlideShow>
     </div>
