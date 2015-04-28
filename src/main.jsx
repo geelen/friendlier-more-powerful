@@ -81,6 +81,126 @@ export default class Main extends React.Component {
           |               |
           |    😳    |
         `}</TypeSlab>
+        <TypeSlab>{`
+          Professional
+          |               |
+          |               |
+          |      😎      |
+          |              |
+          !Starting a Basic
+          !Website in 2015
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😎      |
+          |              |
+          1. Install NodeJS.
+          |                    |
+          !You mean IO.js, obviously.
+          !I submitted 3 logos to that github issue.
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😎      |
+          |              |
+          2. Install Bower.
+          |                    |
+          !Pfft, Webpack doesn't even work with Bower.
+          !I don't think. Maybe it does. Pfft, who cares.
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😎      |
+          |              |
+          3. Pick CSS framework.
+          |                    |
+          !Sure, I'll link in my bespoke, artisanal
+          !CSS reset & typographic hierarchy
+          !that will solve all CSS problems
+          |                                            |
+          !   (if I ever get time to open-source it)   |
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😎      |
+          |              |
+          4. Pick responsive approach.
+          |                    |
+          !Yep, injecting Metaquery into the head, NBD
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😎      |
+          |              |
+          47. Write some HTML
+          |                    |
+          !Well, technically, I'm building a component
+          !library using React & JSX, but whatevs.
+        `}</TypeSlab>
+        <TypeSlab>{`
+          Hobbyist
+          |               |
+          |               |
+          |      😳      |
+          |              |
+          !Starting a Basic
+          !Website in 2015
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😳      |
+          |              |
+          1. Install NodeJS.
+          |                    |
+          !Um, why? I thought Javascript ran in the browser.
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😳      |
+          |              |
+          2. Install Bower.
+          |                    |
+          !What is that even? I thought you said
+          !I was supposed to use NPM for packages.
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😳      |
+          |              |
+          3. Pick CSS framework.
+          |                    |
+          !Um, ok. What if I pick wrong? Can I change it?
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😳      |
+          |              |
+          4. Pick responsive approach.
+          |                    |
+          !Ah! I know this. Media queries, right?
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😳      |
+          |              |
+          47. Write some HTML
+          |                    |
+          !*sobs* that's what I was trying to do
+          !this whole time! My child/boss/friends
+          !are demanding attention, I'm out of time.
+        `}</TypeSlab>
+        <TypeSlab>{`
+          Hobbyist
+          |               |
+          |               |
+          |      😳      |
+          |              |
+          !"Three files in a directory"
+        `}</TypeSlab>
+        <TypeSlab>{`
+          |      😳      |
+          |              |
+          index.html
+          main.css
+          scripts.js
+          |                 |
+          |                 |
+          |      ️😏      |
+        `}</TypeSlab>
+        <TypeSlab kind="uniform">{`
+          JS:
+          Minification
+        `}</TypeSlab>
       </SlideShow>
     </div>
   }
