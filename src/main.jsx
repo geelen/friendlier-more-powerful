@@ -371,6 +371,36 @@ export default class Main extends React.Component {
           ES6
           #HOPE
         `}</TypeSlab>
+        <TypeSlab color="Sky" kind="uniform" font="thinner">{`
+          ES6 IS ✅
+          | |\n| |
+          • EASY TO RECOGNISE
+          !   ES6, =>, class, import
+          | |\n| |
+          • MODERN BROWSER APIS
+          !   2014 onwards, usually
+          | |\n| |
+          • FRIENDLIER
+          !   class sugar, string interpolation,
+          !   this-binding with =>, Promises,
+          !   polyfilled-only (for the moment)
+          | |\n| |
+          • MORE POWERFUL
+          !   MODULES!!!!111one, a real
+          !   Map & Set class
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          But how?
+          |                 |
+          |                 |
+          |      😳      |
+          |              |
+          preprocessors are
+          45 steps too many
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          |                  demo time                  |
+        `}</TypeSlab>
       </SlideShow>
     </div>
   }
