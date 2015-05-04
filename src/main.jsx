@@ -401,6 +401,28 @@ export default class Main extends React.Component {
         <TypeSlab color="Sky">{`
           |                  demo time                  |
         `}</TypeSlab>
+        <TypeSlab color="Finch">{`
+        `}</TypeSlab>
+        <TypeSlab color="Finch">{`
+          Friendly,
+          not yet
+          powerful
+        `}</TypeSlab>
+        <TypeSlab color="Finch" kind="uniform">{`
+          Simple project
+          1 fetch & 1 display
+          147 files
+          ~3 seconds refresh
+        `}</TypeSlab>
+        <TypeSlab color="Finch">{`
+          😎 ➡️ 😞
+        `}</TypeSlab>
+        <TypeSlab color="Finch">{`
+          Optimising your feedback cycle
+          is one of the most important things
+          you can do to increase productivity,
+          quality, focus, etc.
+        `}</TypeSlab>
       </SlideShow>
     </div>
   }

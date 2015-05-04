@@ -6,7 +6,7 @@ export default class SlideShow extends React.Component {
   constructor() {
     super()
     this.state = {
-      slide: 1
+      slide: parseInt(location.hash.replace(/^#/,'')) || 1
     }
   }
 
@@ -23,11 +23,16 @@ export default class SlideShow extends React.Component {
   }
 
   incrementSlide() {
-    this.setState({slide: Math.min(this.props.children.length, this.state.slide + 1)})
+    this.setSlide(Math.min(this.props.children.length, this.state.slide + 1))
   }
 
   decrementSlide() {
-    this.setState({slide: Math.max(1, this.state.slide - 1)})
+    this.setSlide(Math.max(1, this.state.slide - 1))
+  }
+
+  setSlide(nr) {
+    history.replaceState({}, "", `#${nr}`)
+    this.setState({slide: nr})
   }
 
   toggleOverview() {
