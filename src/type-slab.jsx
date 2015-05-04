@@ -26,6 +26,18 @@ const Fonts = {
       weight: 400,
       caps: false
     }
+  },
+  monospaced: {
+    main: {
+      name: "Fira Mono",
+      weight: 400,
+      caps: false
+    },
+    alt: {
+      name: "Fira Mono",
+      weight: 800,
+      caps: false
+    }
   }
 }
 
@@ -36,7 +48,7 @@ export default class TypeSlab extends React.Component {
 
   render() {
     let font = Fonts[this.props.font || 'default'],
-      lines = this.props.children.split("\n").map(l => l.replace(/^ *| *$/g, '').replace(/\|/g, '')).filter(x => x !== "" && x !== "!"),
+      lines = this.props.children.split("\n").map(l => l.replace(/^ *| *$/g, '').replace(/^\||\|$/g, '')).filter(x => x !== "" && x !== "!"),
       color = this.props.color || "Paper",
       chosenColor = Colors.filter(x => x.name == color)[0]
 

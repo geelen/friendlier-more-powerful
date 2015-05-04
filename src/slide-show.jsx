@@ -15,6 +15,8 @@ export default class SlideShow extends React.Component {
       this.incrementSlide()
     } else if (e.keyCode == 37 || e.keyCode == 38) {
       this.decrementSlide()
+    } else if (e.keyCode == 79) {
+      this.toggleOverview()
     } else {
       console.log(e.keyCode)
     }
@@ -28,15 +30,24 @@ export default class SlideShow extends React.Component {
     this.setState({slide: Math.max(1, this.state.slide - 1)})
   }
 
+  toggleOverview() {
+    this.setState({overviewActive: !this.state.overviewActive})
+  }
+
   componentDidMount() {
     document.addEventListener('keydown', this.keyDown.bind(this))
   }
 
   render() {
-    return <ReactCSSTransitionGroup component="div" className="SlideShow" transitionName="slide">
-      <div className="Slide" key={this.state.slide}>
-        {this.props.children[this.state.slide - 1]}
-      </div>
-    </ReactCSSTransitionGroup>
+    return this.state.overviewActive ?
+      <div className="SlideShow -overview">{
+        this.props.children.map((slide, i) => <div className="Slide" key={i}>{slide}</div>)
+      }</div>
+      :
+      <ReactCSSTransitionGroup component="div" className="SlideShow" transitionName="slide">
+        <div className="Slide" key={this.state.slide}>
+          {this.props.children[this.state.slide - 1]}
+        </div>
+      </ReactCSSTransitionGroup>
   }
 }

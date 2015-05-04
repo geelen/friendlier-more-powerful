@@ -280,12 +280,96 @@ export default class Main extends React.Component {
           • Hosted cheaply & simply
         `}</TypeSlab>
         <TypeSlab>{`
-          👞👟👠 Wear your 👞👟👠
+          👞👟👠👡👢 Wear your 👞👟👠👡👢
           browser
           shoes
-          👞👟👠 to work 👞👟👠
+          👞👟👠👡👢 to work 👞👟👠👡👢
           |                         |
           |!                                                                               Thanks, _why|
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          |    ⏳    |
+        `}</TypeSlab>
+        <TypeSlab color="Sky" kind="uniform">{`
+          Codepen
+          JSBin
+          Plunkr
+          JSFiddle
+          💖💖💖💖💖
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          View Source
+          !is the single most powerful
+          !concept on the web. Sites like
+          !Codepen & JSBin say to a newcomer:
+          !You might not understand this, but
+          there are no secrets here.
+        `}</TypeSlab>
+        <TypeSlab color="Sky" kind="uniform">{`
+          Ana Tudor
+          Chris Wright
+          Yoksel
+          💖💖💖💖💖
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          💖💖💖💖💖
+          | |
+          JSPM
+          |            |
+          💖💖💖💖💖
+        `}</TypeSlab>
+        <TypeSlab color="Finch" kind="uniform">{`
+          JavaScript for hobbyists: 🚮
+          | |\n| |\n| |
+          • No module system
+          | |\n| |
+          • Async = callback hell
+          | |\n| |
+          • Terrible data structures
+          | |\n| |
+          • No real OO
+          | |\n| |
+          • Lots of footguns
+          | |\n| |
+          • Browser shenanigans
+        `}</TypeSlab>
+        <TypeSlab color="Finch" kind="uniform" font="monospaced">{`
+          !RUBY:
+          | |\n| |
+          # Find the first title-case word
+          result = line.split(' ').find { |w| w =~ /^[A-Z]/ }
+          | |\n| |\n| |
+          !JS:
+          | |\n| |
+          var result, arr = line.split(' ');
+          for (var i = 0; i < arr.length; i++) {
+          |  if (arr[i].match(/^[A-Z]/)) {
+          |    result = arr[i];
+          | |
+          |    break;
+          | |
+          |  }
+          | |
+          };
+        `}</TypeSlab>
+        <TypeSlab color="Finch">{`
+          We have built up an incredible
+          LEGACY
+          of tips, performance considerations,
+          browser incompatibilities, workarounds
+          rules-of-thumb and war stories that are
+          NO LONGER RELEVANT
+          and simply serve to misinform and
+          confuse people
+        `}</TypeSlab>
+        <TypeSlab color="Finch">{`
+          🚮
+          Please dispose of JavaScript
+          thoughtfully
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          ES6
+          #HOPE
         `}</TypeSlab>
       </SlideShow>
     </div>
