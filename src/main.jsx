@@ -98,7 +98,7 @@ export default class Main extends React.Component {
           1. Install NodeJS.
           |                    |
           !You mean IO.js, obviously.
-          !I submitted 3 logos to that github issue.
+          !I submitted 3 logos to that GitHub issue.
         `}</TypeSlab>
         <TypeSlab color="Ocean">{`
           |      😎      |
@@ -117,7 +117,7 @@ export default class Main extends React.Component {
           !CSS reset & typographic hierarchy
           !that will solve all CSS problems
           |                                            |
-          !   (if I ever get time to open-source it)   |
+          !     (if I ever get time to open-source it)     |
         `}</TypeSlab>
         <TypeSlab color="Ocean">{`
           |      😎      |
@@ -193,7 +193,7 @@ export default class Main extends React.Component {
           |      😳      |
           |              |
           index.html
-          main.css
+          styles.css
           scripts.js
           |                 |
           |                 |
@@ -243,6 +243,12 @@ export default class Main extends React.Component {
           Does any of that
           matter?
         `}</TypeSlab>
+        <TypeSlab>{`
+          — The point is to be —
+          inspired
+          by what's possible
+          — so don't get in the way! —
+        `}</TypeSlab>
         <TypeSlab color="Ocean">{`
           !"There are two types of web:
           The professional web
@@ -260,6 +266,26 @@ export default class Main extends React.Component {
           !                                 — Alex Feyerke|
           !                                    Step Off This Hurtling Machine, JSConfAU 2014
           !                                          (Paraphrased, badly. Watch the video. Srsly)
+        `}</TypeSlab>
+        <TypeSlab kind="uniform">{`
+          PRODUCER WEB
+          | |
+          | |
+          • Making your own sites
+          | |
+          • Using open source tools
+          | |
+          • Supported & encouraged by us
+          | |
+          • Hosted cheaply & simply
+        `}</TypeSlab>
+        <TypeSlab>{`
+          👞👟👠 Wear your 👞👟👠
+          browser
+          shoes
+          👞👟👠 to work 👞👟👠
+          |                         |
+          |!                                                                               Thanks, _why|
         `}</TypeSlab>
       </SlideShow>
     </div>
