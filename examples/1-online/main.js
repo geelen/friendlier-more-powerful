@@ -3,6 +3,8 @@ import dimple from 'github:PMSI-AlignAlytics/dimple/dist/dimple.latest'
 import moment from 'moment'
 
 var svg = dimple.newSvg("main", 590, 400)
+svg.attr("viewBox", "0 0 590 400")
+svg.attr("preserveAspectRatio", "")
 d3.json("https://api.github.com/repos/geelen/typeslab/stats/punch_card", stats => {
   let times = stats.map(stat => {
     let [dayNr, hourNr, count] = stat
@@ -15,7 +17,7 @@ d3.json("https://api.github.com/repos/geelen/typeslab/stats/punch_card", stats =
 
   let x = myChart.addCategoryAxis("x", "hour")
   x.addOrderRule("hourNr")
-  let y = myChart.addCategoryAxis("y", "dayNr")
+  let y = myChart.addCategoryAxis("y", "day")
   y.addOrderRule("dayNr", true)
   myChart.addMeasureAxis("z", "count")
   myChart.addSeries()
