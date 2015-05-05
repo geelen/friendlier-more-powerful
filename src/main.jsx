@@ -10,18 +10,18 @@ export default class Main extends React.Component {
         <TypeSlab>{`
           !Hello, my name is
           Glen
-          !I'm from Melbourne
+          !I'm from Melbourne,
           AUSTRALIA
           !which is a very very long way away. I am
           @glenmaddern
-          !on Twitter so please say hello.
+          !on the Twitter so please say hello.
         `}</TypeSlab>
         <TypeSlab>{`
-          |"                     |
+          |"                          |
           Friendlier,
-          MORE
+          MORE          |
           Powerful
-          |                     "|
+          |                          "|
         `}</TypeSlab>
         <TypeSlab>{`
           ——— About me: ———
@@ -261,7 +261,7 @@ export default class Main extends React.Component {
           !I believe there ought to be another,
           A Producer Web
           !where people can make their own sites
-          !as easily as they can post an update on Facebook
+          !as easily as they can post an update on Facebook"
           |                     |
           !                                 — Alex Feyerke|
           !                                    Step Off This Hurtling Machine, JSConfAU 2014
@@ -420,8 +420,69 @@ export default class Main extends React.Component {
         <TypeSlab color="Finch">{`
           Optimising your feedback cycle
           is one of the most important things
-          you can do to increase productivity,
+          you can do to increase
+          productivity,
           quality, focus, etc.
+        `}</TypeSlab>
+        <TypeSlab color="Finch" kind="uniform">{`
+          Gulp &
+          Webpack &
+          Grunt &
+          Harp &
+          others
+          are better. 😞
+        `}</TypeSlab>
+        <TypeSlab color="Ocean">{`
+          !"If we don't use the tools that
+          We tell others to use
+          !we establish them as lesser. We're saying
+          You'll need to re-learn this
+          !once you do serious work like me.    |
+          |                     |
+          !          Our tools should gradually
+          increase in power
+          !as a person becomes more familiar
+          !with them, all the way until they're
+          good enough for us, too"
+          |                     |
+          !                                                          — Glen Maddern, right now.
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          Friendlier,
+          MORE          |
+          Powerful
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          |                  demo time                  |
+        `}</TypeSlab>
+        <TypeSlab color="Sky" kind="uniform" font="thinner">{`
+          !• jspm-server
+          | |\n| |
+          !• plugin-live-jsx
+          | |\n| |
+          !• plugin-postcss
+          | |\n| |
+          !• plugin-autoprefixer
+          | |\n| |
+          !• plugin-scss-lite
+          | |\n| |
+          !• typeslab
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          This whole talk boils down to
+          ~100 lines
+          of original JavaScript
+        `}</TypeSlab>
+        <TypeSlab color="Ocean">{`
+          |     Why do we care?     |
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          !Make the powerful things
+          more friendly
+          |                      |
+          ~
+          !Make the friendly things
+          more powerful
         `}</TypeSlab>
       </SlideShow>
     </div>
