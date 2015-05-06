@@ -17,6 +17,8 @@ export default class SlideShow extends React.Component {
       this.decrementSlide()
     } else if (e.keyCode == 79) {
       this.toggleOverview()
+    } else if (e.keyCode == 70) {
+      this.toggleFullscreen()
     } else {
       console.log(e.keyCode)
     }
@@ -37,6 +39,14 @@ export default class SlideShow extends React.Component {
 
   toggleOverview() {
     this.setState({overviewActive: !this.state.overviewActive})
+  }
+
+  toggleFullscreen() {
+    if (document.webkitFullscreenElement) {
+      document.webkitExitFullscreen()
+    } else {
+      document.body.webkitRequestFullscreen()
+    }
   }
 
   componentDidMount() {

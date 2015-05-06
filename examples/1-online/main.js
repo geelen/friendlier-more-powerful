@@ -1,5 +1,5 @@
 import d3 from 'd3'
-import dimple from 'dimple/dist/dimple.latest'
+import dimple from 'dimple'
 import moment from 'moment'
 
 var svg = dimple.newSvg("main", 590, 400)
