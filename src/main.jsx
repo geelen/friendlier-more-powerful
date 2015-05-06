@@ -71,6 +71,10 @@ export default class Main extends React.Component {
           |     • • •
           | |
           47. Write some HTML
+          | |
+          | |
+          | |
+          !@iamdeveloper, 2 Oct 2014
         `}</TypeSlab>
         <TypeSlab>{`
           Professional
@@ -78,7 +82,7 @@ export default class Main extends React.Component {
           |               |
           |    😎    |
           |           |
-          Hobbyist
+          Newcomer
           |               |
           |               |
           |    😳    |
@@ -135,7 +139,7 @@ export default class Main extends React.Component {
           !library using React & JSX, but whatevs.
         `}</TypeSlab>
         <TypeSlab>{`
-          Hobbyist
+          Newcomer
           |               |
           |               |
           |      😳      |
@@ -182,7 +186,7 @@ export default class Main extends React.Component {
           !are demanding attention, I'm out of time.
         `}</TypeSlab>
         <TypeSlab>{`
-          Hobbyist
+          Newcomer
           |               |
           |               |
           |      😳      |
@@ -319,7 +323,7 @@ export default class Main extends React.Component {
           💖💖💖💖💖
         `}</TypeSlab>
         <TypeSlab color="Finch" kind="uniform">{`
-          JavaScript for hobbyists: 🚮
+          JavaScript for newcomers: 🚮
           | |\n| |\n| |
           • No module system
           | |\n| |
@@ -405,7 +409,7 @@ export default class Main extends React.Component {
         `}</TypeSlab>
         <TypeSlab color="Finch">{`
           Friendly,
-          not yet
+          not yet  |
           powerful
         `}</TypeSlab>
         <TypeSlab color="Finch" kind="uniform">{`
@@ -483,6 +487,26 @@ export default class Main extends React.Component {
           ~
           !Make the friendly things
           more powerful
+        `}</TypeSlab>
+        <TypeSlab color="Sky" font="thinner">{`
+          !IF WE TAKE PRIDE
+          !IN MAKING OUR TOOLS
+          FRIENDLY &
+          ACCESSIBLE &
+          WELCOMING
+          !MAYBE WE CAN
+          BREAK
+          !SOME OF THE BAD BEHAVIOURS
+          THAT MAKE TECH
+          SO HOSTILE
+        `}</TypeSlab>
+        <TypeSlab color="Sky" font="thinner">{`
+          !IF WE TAKE PRIDE IN
+          MAKING OUR TOOLS
+          !FRIENDLY, ACCESSIBLE &
+          !WELCOMING, MAYBE WE'D
+          MAKE OURSELVES
+          !THOSE THINGS AS WELL
         `}</TypeSlab>
       </SlideShow>
     </div>
