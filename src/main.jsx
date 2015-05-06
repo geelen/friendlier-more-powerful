@@ -403,6 +403,13 @@ export default class Main extends React.Component {
           45 steps too many
         `}</TypeSlab>
         <TypeSlab color="Sky">{`
+          ~
+          incremental
+          complexity
+          |                                         |
+          ~
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
           |                  demo time                  |
         `}</TypeSlab>
         <TypeSlab color="Finch">{`
