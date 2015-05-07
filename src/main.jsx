@@ -48,6 +48,11 @@ export default class Main extends React.Component {
           |!                              — Douglas Adams|
           |!                                    Hitchhiker's Guide to the Galaxy Radio Series iTunes bonus content|
         `}</TypeSlab>
+        <TypeSlab>{`
+          What's it like to
+          be new to building
+          the web?
+        `}</TypeSlab>
         <TypeSlab kind="uniform">{`
           Terminal
           Unix
@@ -87,7 +92,7 @@ export default class Main extends React.Component {
           |               |
           |    😳    |
         `}</TypeSlab>
-        <TypeSlab color="Ocean">{`
+        <TypeSlab color="">{`
           Professional
           |               |
           |               |
@@ -248,40 +253,37 @@ export default class Main extends React.Component {
           matter?
         `}</TypeSlab>
         <TypeSlab>{`
-          — The point is to be —
-          inspired
-          by what's possible
-          — so don't get in the way! —
+          ❌
         `}</TypeSlab>
         <TypeSlab color="Ocean">{`
-          !"There are two types of web:
-          The professional web
-          !which is the one we all inhabit, and
-          The consumer web.
-          !The consumer web only allows publishing of content
-          on other people's platforms,
-          on other people's terms.
-          |                                |
-          !I believe there ought to be another,
-          A Producer Web
-          !where people can make their own sites
-          !as easily as they can post an update on Facebook"
-          |                     |
-          !                                 — Alex Feyerke|
-          !                                    Step Off This Hurtling Machine, JSConfAU 2014
-          !                                          (Paraphrased, badly. Watch the video. Srsly)
+          Consumer web
+          |                          |
+          |!          ~ vs ~         |
+          |                  |
+          professional web
+          |                   |
+          !                                       — Alex Feyerke|
+          !                                           Step Off This Hurtling Machine, JSConfAU 2014
         `}</TypeSlab>
-        <TypeSlab kind="uniform">{`
-          PRODUCER WEB
-          | |
-          | |
-          • Making your own sites
-          | |
-          • Using open source tools
-          | |
-          • Supported & encouraged by us
-          | |
-          • Hosted cheaply & simply
+        <TypeSlab color="Ocean">{`
+          !"I'd much rather we turn the professional web into a
+          producer web,
+          !something that's culturally and socially |
+          accessible, welcoming
+          & truly open to all
+          !of any skill level, of any language, of any gender."
+          |                   |
+          !                                       — Alex Feyerke|
+          !                                           Step Off This Hurtling Machine, JSConfAU 2014
+        `}</TypeSlab>
+        <TypeSlab font="thinner">{`
+          !    GET PEOPLE    |
+          |                 |
+          INSPIRED
+          |                     |
+          !    BY WHAT'S    |
+          |                 |
+          POSSIBLE
         `}</TypeSlab>
         <TypeSlab>{`
           👞👟👠👡👢 Wear your 👞👟👠👡👢
@@ -299,21 +301,26 @@ export default class Main extends React.Component {
           JSBin
           Plunkr
           JSFiddle
-          💖💖💖💖💖
+          💖💖💖💖
         `}</TypeSlab>
-        <TypeSlab color="Sky">{`
-          View Source
-          !is the single most powerful
-          !concept on the web. Sites like
-          !Codepen & JSBin say to a newcomer:
-          !You might not understand this, but
-          there are no secrets here.
+        <TypeSlab color="Sky" kind="uniform" font="thinner">{`
+          CodePen heroes:
+          | |\n| |
+          !ANA TUDOR
+          thebabydino
+          | |\n| |
+          !CHRIS WRIGHT
+          chriswrightdesign
+          | |\n| |
+          !YOKSEL
+          yoksel
         `}</TypeSlab>
-        <TypeSlab color="Sky" kind="uniform">{`
-          Ana Tudor
-          Chris Wright
-          Yoksel
-          💖💖💖💖💖
+        <TypeSlab color="Sky" font="thinner">{`
+          !VIEW SOURCE IS THE SINGLE MOST POWERFUL
+          !CONCEPT ON THE WEB. SITES LIKE
+          !CODEPEN & JSBIN SAY TO A NEWCOMER:
+          !YOU MIGHT NOT UNDERSTAND THIS, BUT
+          THERE ARE NO SECRETS HERE.
         `}</TypeSlab>
         <TypeSlab color="Sky">{`
           💖💖💖💖💖
@@ -357,14 +364,8 @@ export default class Main extends React.Component {
           };
         `}</TypeSlab>
         <TypeSlab color="Finch">{`
-          We have built up an incredible
-          LEGACY
-          of tips, performance considerations,
-          browser incompatibilities, workarounds
-          rules-of-thumb and war stories that are
-          NO LONGER RELEVANT
-          and simply serve to misinform and
-          confuse people
+          StackOverflow is now mostly
+          out of date
         `}</TypeSlab>
         <TypeSlab color="Finch">{`
           🚮
@@ -400,40 +401,33 @@ export default class Main extends React.Component {
           |      😳      |
           |              |
           preprocessors are
-          45 steps too many
+          46 steps too many
         `}</TypeSlab>
         <TypeSlab color="Sky">{`
-          ~
           incremental
           complexity
-          |                                         |
-          ~
         `}</TypeSlab>
         <TypeSlab color="Sky">{`
           |                  demo time                  |
         `}</TypeSlab>
         <TypeSlab color="Finch">{`
+          |      😎      |
+          |                      |
+          It might be friendly enough,
+          but Is it powerful
+          enough for me?
         `}</TypeSlab>
-        <TypeSlab color="Finch">{`
-          Friendly,
-          not yet  |
-          powerful
-        `}</TypeSlab>
-        <TypeSlab color="Finch" kind="uniform">{`
-          Simple project
-          1 fetch & 1 display
-          147 files
-          ~3 seconds refresh
+        <TypeSlab color="Finch" kind="uniform" font="thinner">{`
+          TYPESLAB.COM:
+          | |\n| |
+          !<10 REACT COMPONENTS
+          | |\n| |
+          !504 FILES LOADED IN THE BROWSER
+          | |\n| |
+          !~6 SECONDS REFRESH
         `}</TypeSlab>
         <TypeSlab color="Finch">{`
           😎 ➡️ 😞
-        `}</TypeSlab>
-        <TypeSlab color="Finch">{`
-          Optimising your feedback cycle
-          is one of the most important things
-          you can do to increase
-          productivity,
-          quality, focus, etc.
         `}</TypeSlab>
         <TypeSlab color="Finch" kind="uniform">{`
           Gulp &
@@ -463,9 +457,6 @@ export default class Main extends React.Component {
           MORE          |
           Powerful
         `}</TypeSlab>
-        <TypeSlab color="Sky">{`
-          |                  demo time                  |
-        `}</TypeSlab>
         <TypeSlab color="Sky" kind="uniform" font="thinner">{`
           !• jspm-server
           | |\n| |
@@ -473,19 +464,18 @@ export default class Main extends React.Component {
           | |\n| |
           !• plugin-postcss
           | |\n| |
-          !• plugin-autoprefixer
+          !• plugin-autoprefixer (soon)
           | |\n| |
-          !• plugin-scss-lite
+          !• plugin-css-next (soon)
           | |\n| |
-          !• typeslab
+        `}</TypeSlab>
+        <TypeSlab color="Sky">{`
+          |                  demo time                  |
         `}</TypeSlab>
         <TypeSlab color="Sky">{`
           This whole talk boils down to
           ~100 lines
           of original JavaScript
-        `}</TypeSlab>
-        <TypeSlab color="Ocean">{`
-          |     Why do we care?     |
         `}</TypeSlab>
         <TypeSlab color="Sky">{`
           !Make the powerful things
@@ -495,25 +485,21 @@ export default class Main extends React.Component {
           !Make the friendly things
           more powerful
         `}</TypeSlab>
-        <TypeSlab color="Sky" font="thinner">{`
-          !IF WE TAKE PRIDE
-          !IN MAKING OUR TOOLS
-          FRIENDLY &
-          ACCESSIBLE &
-          WELCOMING
-          !MAYBE WE CAN
-          BREAK
-          !SOME OF THE BAD BEHAVIOURS
-          THAT MAKE TECH
-          SO HOSTILE
+        <TypeSlab color="Ocean">{`
+          |     Why do we care?     |
         `}</TypeSlab>
-        <TypeSlab color="Sky" font="thinner">{`
-          !IF WE TAKE PRIDE IN
+        <TypeSlab color="Ocean" font="thinner" kind="uniform">{`
+          !IF WE STARTED TAKING PRIDE IN
           MAKING OUR TOOLS
           !FRIENDLY, ACCESSIBLE &
           !WELCOMING, MAYBE WE'D
           MAKE OURSELVES
           !THOSE THINGS AS WELL
+        `}</TypeSlab>
+        <TypeSlab color="Ocean">{`
+          Thank you.
+          I'm @glenmaddern,
+          please hit me up online if you have questions
         `}</TypeSlab>
       </SlideShow>
     </div>
