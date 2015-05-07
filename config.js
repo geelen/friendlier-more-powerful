@@ -37,6 +37,7 @@ System.config({
       "FontDetect": "github:JenniferSimonds/FontDetect@master",
       "blueimp-canvas-to-blob": "npm:blueimp-canvas-to-blob@2.1.1",
       "caniuse-db": "npm:caniuse-db@1.0.30000148",
+      "core-js": "npm:core-js@0.9.7",
       "fkit": "npm:fkit@0.16.2",
       "flummox": "npm:flummox@3.5.2",
       "insert-css": "npm:insert-css@0.2.0",
@@ -205,6 +206,9 @@ System.config({
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:core-js@0.9.3": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:core-js@0.9.7": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:core-util-is@1.0.1": {
